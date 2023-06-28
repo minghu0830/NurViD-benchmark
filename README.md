@@ -19,7 +19,7 @@ Data download link will be available soon!
 
 
 ## Dataset and code release progress
-- [x] Add video and annotation files
+- [x] Start release
+- [ ] Add video and annotation files
 - [ ] Add RGB and Flow features
-- [ ] Add recognization code
-- [ ] Add detection code
+- [ ] Add code
