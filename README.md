@@ -21,10 +21,21 @@ By running the script below, the video will be resized to the short edge size of
 python tools/preprocess_videos.py
 ```
 ### 3.Extract RGB and Flow features
-We start by extracting frames from each video at 25 frames per second and optical flow using the TV-L1 algorithm. Next, we utilize a pre-trained I3D model on the ImageNet dataset to generate features for each RGB and optical flow frame. To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input. Use following scripts to extract both RGB and Flow:
+We start by extracting frames from each video at 25 frames per second and optical flow using the TV-L1 algorithm.:
 ```
-python tools/build_rawframes.py
+python tools/build_rawframes.py /video_path /rgb&flow_frmaes_save_path --level 1 --flow-type tvl1 --ext mp4 --task both --new-short 320
 ```
+Next, we utilize a pre-trained I3D model on the ImageNet dataset to generate features for each RGB and optical flow frame:
+```
+python tools/extract_features.py --mode rgb --load_model models/rgb_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
+python tools/extract_features.py --mode flow --load_model models/flow_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
+```
+To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input:
+
+```
+python tools/convert.py
+```
+
 ### 4.Ours
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
 
