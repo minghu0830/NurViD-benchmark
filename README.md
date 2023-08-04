@@ -8,11 +8,14 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 
 ![demo](./localization.png)
 
-## Environment Requirements
-1. python 3.8
-2. PyTorch 1.8+
-3. densflow
-4. mmaction2
+## Prerequisites
+
+This package has the following requirements:
+
+* `python 3.8`
+* `PyTorch 1.8+`
+* `densflow`
+* ` mmaction2`
 
 ## Dataset Preparation
 
@@ -40,6 +43,18 @@ To handle varying video durations, we perform uniform interpolation to generate 
 
 ### 4.Ours
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
+
+
+## Acknowledgement
+
+Part of our code is borrowed from the following repositories:
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [mmaction2](https://github.com/open-mmlab/mmaction2)
+- [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
+
+
+
 
 ## Dataset and code release progress
 - [x] Start release
