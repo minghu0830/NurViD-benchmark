@@ -9,20 +9,24 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 ![demo](./localization.png)
 
 ## Dataset Preparation
-### Download videos
-We provide two download options:
 
-1.Download videos automatically from the source YouTube by running the script below：
+### 1.Download videos
+Download videos automatically from the source YouTube by running the script below：
 ```
 python tools/download_videos.py
 ```
-2.After signing the [data agreement form](), our team will send you the Google Drive link (including original videos and preprocessed videos) to your email.
-
-### Preprocess videos
+### 2.Preprocess videos
 By running the script below, the video will be resized to the short edge size of 256 and a frame rate of 25 FPS:
 ```
 python tools/preprocess_videos.py
 ```
+### 3.Extract RGB and Flow features
+We start by extracting frames from each video at 25 frames per second and optical flow using the TV-L1 algorithm. Next, we utilize a pre-trained I3D model on the ImageNet dataset to generate features for each RGB and optical flow frame. To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input. Use following scripts to extract both RGB and Flow:
+```
+python tools/build_rawframes.py
+```
+### 4.Ours
+We also provide a method to directly access our data, but it requires you to sign the [data agreement form](). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
 
 ## Dataset and code release progress
 - [x] Start release
