@@ -19,7 +19,7 @@ We provide two download options:
 ```
 python tools/download_videos.py
 ```
-2.After signing the [data agreement form](), our team will send you the Google Drive link to your email.
+2.After signing the [data agreement form](), our team will send you the Google Drive link (including original videos and preprocessed videos) to your email.
 
 ### Preprocess videos
 By running the script below, the video will be resized to the short edge size of 256 and a frame rate of 25 FPS:
