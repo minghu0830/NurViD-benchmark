@@ -8,6 +8,12 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 
 ![demo](./localization.png)
 
+## Environment Requirements
+1. python=3.8
+2. PyTorch 1.8+
+3. densflow
+4. mmaction2
+
 ## Dataset Preparation
 
 ### 1.Download videos
