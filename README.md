@@ -36,11 +36,7 @@ Next, we utilize a pre-trained I3D model on the ImageNet dataset to generate fea
 python /feature_extraction/extract_features.py --mode rgb --load_model models/rgb_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
 python /feature_extraction/extract_features.py --mode flow --load_model models/flow_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
 ```
-To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input:
-
-```
-python /feature_extraction/convert.py
-```
+To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input.
 
 ### 4.Ours
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
