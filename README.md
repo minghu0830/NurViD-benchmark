@@ -12,14 +12,17 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 ![demo](figures/localization.png)
 
 ## Download Dataset
-Data download link will be available soon!
+We provide two download options:
 
-
-## Running our baseline codes
+1.Automatically scrape videos using the following script.
+```
+python tools/download_videos.py
+```
+2.After signing the [data agreement form](), our team will send you the download links for the data on Google Drive to your email.
 
 
 ## Dataset and code release progress
 - [x] Start release
-- [ ] Add video and annotation files
+- [x] Add video and annotation files
 - [ ] Add RGB and Flow features
 - [ ] Add code
