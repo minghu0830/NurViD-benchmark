@@ -15,7 +15,7 @@ This package has the following requirements:
 * `python 3.8`
 * `PyTorch 1.8+`
 * `densflow`
-* ` mmaction2`
+* `mmaction2`
 
 ## Dataset Preparation
 
