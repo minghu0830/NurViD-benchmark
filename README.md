@@ -23,7 +23,7 @@ python tools/preprocess_videos.py
 ### 3.Extract RGB and Flow features
 We start by extracting frames from each video at 25 frames per second and optical flow using the TV-L1 algorithm.:
 ```
-python tools/build_rawframes.py /video_path /rgb&flow_frmaes_save_path --level 1 --flow-type tvl1 --ext mp4 --task both --new-short 320
+python tools/build_rawframes.py /video_path /rgb&flow_frmaes_save_path --level 1 --flow-type tvl1 --ext mp4 --task both
 ```
 Next, we utilize a pre-trained I3D model on the ImageNet dataset to generate features for each RGB and optical flow frame:
 ```
