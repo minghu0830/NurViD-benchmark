@@ -15,7 +15,7 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 ### Download videos
 We provide two download options:
 
-1.Automatically scrape videos using the following script.
+1.Download videos automatically from the source YouTube by running the script below：
 ```
 python tools/download_videos.py
 ```
