@@ -13,27 +13,27 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 ### 1.Download videos
 Download videos automatically from the source YouTube by running the script below：
 ```
-python tools/download_videos.py
+python /tools/download_videos.py
 ```
 ### 2.Preprocess videos
 By running the script below, the video will be resized to the short edge size of 256 and a frame rate of 25 FPS:
 ```
-python tools/preprocess_videos.py
+python /tools/preprocess_videos.py
 ```
 ### 3.Extract RGB and Flow features
 We start by extracting frames from each video at 25 frames per second and optical flow using the TV-L1 algorithm.:
 ```
-python feature_extraction/build_rawframes.py /video_path /rgb&flow_frmaes_save_path --level 1 --flow-type tvl1 --ext mp4 --task both
+python /feature_extraction/build_rawframes.py /video_path /rgb&flow_frmaes_save_path --level 1 --flow-type tvl1 --ext mp4 --task both
 ```
 Next, we utilize a pre-trained I3D model on the ImageNet dataset to generate features for each RGB and optical flow frame:
 ```
-python feature_extraction/extract_features.py --mode rgb --load_model models/rgb_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
-python feature_extraction/extract_features.py --mode flow --load_model models/flow_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
+python /feature_extraction/extract_features.py --mode rgb --load_model models/rgb_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
+python /feature_extraction/extract_features.py --mode flow --load_model models/flow_imagenet.pt --input_dir /rgb&flow_frmaes_save_path --output_dir /rgb_feature_save_path --batch_size 100 --sample_mode resize --no-usezip
 ```
 To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input:
 
 ```
-python feature_extraction/convert.py
+python /feature_extraction/convert.py
 ```
 
 ### 4.Ours
