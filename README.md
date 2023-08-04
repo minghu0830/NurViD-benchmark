@@ -21,7 +21,7 @@ python tools/download_videos.py
 ### Preprocess videos
 By running the script below, the video will be resized to the short edge size of 256 and a frame rate of 25 FPS:
 ```
-python tools/preprocess_video.py
+python tools/preprocess_videos.py
 ```
 
 ## Dataset and code release progress
