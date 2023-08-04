@@ -19,7 +19,7 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 ### 1.Download videos
 Download videos automatically from the source YouTube by running the script below：
 ```
-python /tools/download_videos.py
+python /tools/downloader.py
 ```
 ### 2.Preprocess videos
 By running the script below, the video will be resized to the short edge size of 256 and a frame rate of 25 FPS:
