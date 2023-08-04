@@ -9,7 +9,7 @@
 ## Introduction
 NurViD is a large video dataset with expert-level annotation for nursing procedure activity understanding. NurViD consists of over 1.5k videos totaling 144 hours. Notably, it encompasses 51 distinct nursing procedures and 177 action steps.
 
-![demo](localization.png)
+![demo](./localization.png)
 
 ## Dataset Preparation
 ### Download videos
