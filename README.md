@@ -42,7 +42,7 @@ python /feature_extraction/extract_features.py --mode flow --load_model models/f
 To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input.
 
 ### 4.Ours
-We also provide a method to directly access our data, but it requires you to sign the [data agreement form](). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
+We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
 
 
 ## Acknowledgement
