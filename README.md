@@ -47,7 +47,7 @@ We clip the video into segments according to the order specified in the JSON ann
 python /tools/clip.py
 ```
 
-### 5.Ours Source
+### 5.Our Source
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with a Google Drive download link(including original videos, preprocessed videos and features).
 
 
