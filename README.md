@@ -14,9 +14,13 @@ This package has the following requirements:
 
 * `python 3.8`
 * `yt-dlp`
-* `PyTorch 1.8+`
+* `PyTorch >= 1.8`
 * `densflow`
 * `mmaction2`
+* `GCC >= 4.9`
+* `PyAV`
+* `OpenCV`
+* `Detectron2`
 
 ## Directory Structure
 In the context of the whole project, the folder structure will look like:
@@ -101,7 +105,6 @@ To handle varying video durations, we perform uniform interpolation to generate 
 ### 5.Our Source
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive, Zenodo and Baidu Netdisk download links (including original videos, preprocessed videos and features).
 
-
 ## Acknowledgement
 
 Part of our code is borrowed from the following repositories:
@@ -109,9 +112,7 @@ Part of our code is borrowed from the following repositories:
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [mmaction2](https://github.com/open-mmlab/mmaction2)
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
-
-
-
+- [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
 
 ## Dataset and code release progress
 - [x] Start release
