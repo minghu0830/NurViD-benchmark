@@ -49,6 +49,10 @@ NurViD-benchmark
 │   ├── downloader.py
 │   ├── preprocess_videos.py
 │   ├── clip.py
+├── model
+│   ├── SlowFast
+│   ├── C3D
+│   ├── I3D
 ├── dataset
 │   ├── Original_videos
 │   │   ├── --Ly-qjodoI.mp4
