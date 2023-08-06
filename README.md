@@ -18,6 +18,54 @@ This package has the following requirements:
 * `densflow`
 * `mmaction2`
 
+## Directory Structure
+In the context of the whole project, the folder structure will look like:
+
+```
+NurViD-benchmark
+├── annotations
+│   ├── task1&3
+│   │   ├── train.csv
+│   │   ├── val.csv
+│   │   ├── test.csv.csv
+│   ├── task2
+│   │   ├── procedure_train.csv
+│   │   ├── procedure_val.csv
+│   │   ├── procedure_testcsv
+│   │   ├── action_train.csv
+│   │   ├── action_val.csv
+│   │   ├── action_test.csv
+│   ├── NurViD_annotations.json
+│   ├── Procedure&Action_ID.xlsx
+├── feature_extraction
+│   ├── feature
+│   │   ├── --Ly-qjodoIs.npz
+│   │   ├── -0z1P7sw2qs.npz
+│   │   ├── ..
+│   ├── build_rawframes.py
+│   ├── extract_features.py
+│   ├── ..
+├── tools
+│   ├── downloader.py
+│   ├── preprocess_videos.py
+│   ├── clip.py
+├── dataset
+│   ├── Original_videos
+│   │   ├── --Ly-qjodoI.mp4
+│   │   ├── -0z1P7sw2qs.mp4
+│   │   ├── ..
+│   ├── Preprocessed videos
+│   │   ├── --Ly-qjodoI.mp4
+│   │   ├── -0z1P7sw2qs.mp4
+│   │   ├── ..
+│   ├── Segments
+│   │   ├── --Ly-qjodoI_1.mp4
+│   │   ├── --Ly-qjodoI_2.mp4
+│   │   ├── --Ly-qjodoI_3.mp4
+│   │   ├── ..
+
+```
+
 ## Dataset Preparation
 
 ### 1.Download videos
