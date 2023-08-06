@@ -63,7 +63,6 @@ NurViD-benchmark
 │   │   ├── --Ly-qjodoI_2.mp4
 │   │   ├── --Ly-qjodoI_3.mp4
 │   │   ├── ..
-
 ```
 
 ## Dataset Preparation
