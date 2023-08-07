@@ -12,7 +12,7 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 
 This package has the following requirements:
 
-* `python 3.8`
+* `python >= 3.8`
 * `yt-dlp`
 * `PyTorch >= 1.8`
 * `densflow`
