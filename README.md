@@ -114,7 +114,7 @@ Part of our code is borrowed from the following repositories:
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
 - [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
 
-## Dataset and code release progress
+## Dataset and Code Release Progress
 - [x] Start release
 - [x] Add video and annotation files
 - [ ] Add RGB and Flow features
