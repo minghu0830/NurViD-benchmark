@@ -27,7 +27,7 @@ In the context of the whole project, the folder structure will look like:
 
 ```
 NurViD-benchmark
-├── annotations
+├── annotations (The original annotation files and the division of train, validation, and test sets for different tasks)
 │   ├── task1&3
 │   │   ├── train.csv
 │   │   ├── val.csv
@@ -41,7 +41,7 @@ NurViD-benchmark
 │   │   ├── action_test.csv
 │   ├── NurViD_annotations.json
 │   ├── Procedure&Action_ID.xlsx
-├── feature_extraction
+├── feature_extraction (The feature extraction script required for action detection.)
 │   ├── feature
 │   │   ├── --Ly-qjodoIs.npz
 │   │   ├── -0z1P7sw2qs.npz
@@ -49,15 +49,15 @@ NurViD-benchmark
 │   ├── build_rawframes.py
 │   ├── extract_features.py
 │   ├── ..
-├── tools
+├── tools (Scripts for video downloading, pre-processing, video editing, etc.)
 │   ├── downloader.py
 │   ├── preprocess_videos.py
 │   ├── clip.py
-├── model
+├── model (Baseline models.)
 │   ├── SlowFast
 │   ├── C3D
 │   ├── I3D
-├── dataset
+├── dataset (Video data structure.)
 │   ├── Original_videos
 │   │   ├── --Ly-qjodoI.mp4
 │   │   ├── -0z1P7sw2qs.mp4
