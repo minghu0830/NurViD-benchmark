@@ -116,10 +116,10 @@ Part of our code is borrowed from the following repositories:
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
 - [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
 
-## Disclaimer
-The disclaimer statement for the project can be found in the following file description：
+## License and Disclaimer
+The CC-BY-4.0 license and disclaimer statement for the project can be found in the following file description：
 ```
-Disclaimer.txt
+CC BY 4.0 & Disclaimer.txt
 ```
 
 ## Dataset and Code Release Progress
