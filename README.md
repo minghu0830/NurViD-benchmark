@@ -105,6 +105,8 @@ To handle varying video durations, we perform uniform interpolation to generate 
 ### 5.Our Source
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive, Zenodo and Baidu Netdisk download links (including original videos, preprocessed videos and features).
 
+## Publications
+
 ## Acknowledgement
 
 Part of our code is borrowed from the following repositories:
@@ -113,6 +115,12 @@ Part of our code is borrowed from the following repositories:
 - [mmaction2](https://github.com/open-mmlab/mmaction2)
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
 - [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
+
+## Disclaimer
+The disclaimer statement for the project can be found in the following file description：
+```
+Disclaimer.txt
+```
 
 ## Dataset and Code Release Progress
 - [x] Start release
