@@ -75,12 +75,12 @@ NurViD-benchmark
 
 ## Dataset Preparation
 
-### 1.Download videos
+### 1.Download Videos
 Download videos automatically from the source YouTube by running the script below：
 ```
 python /tools/downloader.py
 ```
-### 2.Preprocess videos
+### 2.Preprocess Videos
 By running the script below, the video will be resized to the short edge size of 256 and a frame rate of 25 FPS:
 ```
 python /tools/preprocess_videos.py
@@ -90,7 +90,7 @@ We clip the video into segments according to the order specified in the JSON ann
 ```
 python /tools/clip.py
 ```
-### 4.Extract RGB and Flow features
+### 4.Extract RGB and Flow Features
 We start by extracting frames from each video at 25 frames per second and optical flow using the TV-L1 algorithm.:
 ```
 python /feature_extraction/build_rawframes.py /video_path /rgb&flow_frmaes_save_path --level 1 --flow-type tvl1 --ext mp4 --task both
