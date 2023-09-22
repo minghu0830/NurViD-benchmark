@@ -112,7 +112,7 @@ To handle varying video durations, we perform uniform interpolation to generate 
 ### 5.Our Source
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive and Baidu Netdisk download links (including original videos, preprocessed videos and features). Our dataset videos will be released soon, no later than the camera-ready deadline.
 
-## Acknowledgement
+## :teddy_bear: Acknowledgement
 
 Part of our code is borrowed from the following repositories:
 
@@ -121,7 +121,7 @@ Part of our code is borrowed from the following repositories:
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
 - [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
 
-## License and Disclaimer
+## :white_check_mark: License and Disclaimer
 The CC-BY-4.0 license and disclaimer statement for the project can be found in the following file description：
 ```
 CC BY 4.0
