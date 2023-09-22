@@ -80,7 +80,7 @@ NurViD-benchmark
 │   │   ├── ..
 ```
 
-## :sunglasses: Dataset: Preparation
+## :sunglasses: Dataset Preparation
 
 ### 1.Download Videos
 Download videos automatically from the source YouTube by running the script below：
@@ -124,7 +124,8 @@ Part of our code is borrowed from the following repositories:
 ## License and Disclaimer
 The CC-BY-4.0 license and disclaimer statement for the project can be found in the following file description：
 ```
-CC BY 4.0 & Disclaimer.txt
+CC BY 4.0
+Disclaimer.txt
 ```
 
 ## Dataset and Code Release Progress
