@@ -15,7 +15,7 @@ This package has the following requirements:
 * `python >= 3.8`
 * `yt-dlp`
 * `PyTorch >= 1.8`
-* `densflow`
+* `denseflow`
 * `mmaction2`
 * `GCC >= 4.9`
 * `PyAV`
