@@ -3,12 +3,15 @@
 
 <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
-## Introduction
+## :blush: Introduction
 NurViD is a large video dataset with expert-level annotation for nursing procedure activity understanding. NurViD consists of over 1.5k videos totaling 144 hours. Notably, it encompasses 51 distinct nursing procedures and 177 action steps.
 
 ![demo](./localization.png)
 
-## Installation
+## :partying_face: News
+* **[2023.09.22]** NurViD is selected by NeurIPS 2023 Track Datasets and Benchmarks!
+
+## :cowboy_hat_face:Installation
 
 This package has the following requirements:
 * `GCC >= 4.9`
@@ -26,7 +29,7 @@ pip install -r requirements.txt
 ### 2.MMAction2、PySlowFast、Denseflow
 Please refer to the official websites of [MMAction2](https://github.com/open-mmlab/mmaction2), [PySlowFast](https://github.com/facebookresearch/SlowFast), [Denseflow](https://github.com/yjxiong/dense_flow)(Optional: A GPU-accelerated library designed for efficient extraction of optical flow features) for detailed instructions.
 
-## Directory Structure
+## :hand_over_mouth: Directory Structure
 In the context of the whole project, the folder structure will look like:
 
 ```
@@ -77,7 +80,7 @@ NurViD-benchmark
 │   │   ├── ..
 ```
 
-## Dataset Preparation
+## :sunglasses: Dataset: Preparation
 
 ### 1.Download Videos
 Download videos automatically from the source YouTube by running the script below：
@@ -108,8 +111,6 @@ To handle varying video durations, we perform uniform interpolation to generate 
 
 ### 5.Our Source
 We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive and Baidu Netdisk download links (including original videos, preprocessed videos and features). Our dataset videos will be released soon, no later than the camera-ready deadline.
-
-## Publications
 
 ## Acknowledgement
 
