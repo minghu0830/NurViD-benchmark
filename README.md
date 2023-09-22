@@ -8,19 +8,23 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 
 ![demo](./localization.png)
 
-## Prerequisites
+## Installation
 
 This package has the following requirements:
-
+* `GCC >= 4.9`
 * `python >= 3.8`
-* `yt-dlp`
 * `PyTorch >= 1.8`
 * `denseflow`
 * `mmaction2`
-* `GCC >= 4.9`
-* `PyAV`
-* `OpenCV`
-* `Detectron2`
+* `pyslowfast`
+### 1.Create a virtual environment
+```
+conda create --name nurvid python=3.9 -y
+conda activate nurvid
+pip install -r requirements.txt
+```
+### 2.mmaction2、SlowFast、Denseflow
+Please refer to [mmaction2](https://github.com/open-mmlab/mmaction2), [SlowFast](https://github.com/facebookresearch/SlowFast), [Denseflow](https://github.com/yjxiong/dense_flow)(Optional: A GPU-accelerated library designed for efficient extraction of optical flow features) official website for detailed instructions.
 
 ## Directory Structure
 In the context of the whole project, the folder structure will look like:
