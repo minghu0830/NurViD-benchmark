@@ -15,7 +15,7 @@ This package has the following requirements:
 * `python >= 3.8`
 * `PyTorch >= 1.8`
 * `Denseflow`
-* `mmaction2`
+* `MMAction2`
 * `PySlowFast`
 ### 1.Create a virtual environment
 ```
@@ -23,8 +23,8 @@ conda create --name nurvid python=3.9 -y
 conda activate nurvid
 pip install -r requirements.txt
 ```
-### 2.mmaction2、SlowFast、Denseflow
-Please refer to [mmaction2](https://github.com/open-mmlab/mmaction2), [PySlowFast](https://github.com/facebookresearch/SlowFast), [Denseflow](https://github.com/yjxiong/dense_flow)(Optional: A GPU-accelerated library designed for efficient extraction of optical flow features) official website for detailed instructions.
+### 2.MMAction2、PySlowFast、Denseflow
+Please refer to [MMAction2](https://github.com/open-mmlab/mmaction2), [PySlowFast](https://github.com/facebookresearch/SlowFast), [Denseflow](https://github.com/yjxiong/dense_flow)(Optional: A GPU-accelerated library designed for efficient extraction of optical flow features) official website for detailed instructions.
 
 ## Directory Structure
 In the context of the whole project, the folder structure will look like:
