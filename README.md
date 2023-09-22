@@ -116,7 +116,7 @@ We also provide a method to directly access our data, but it requires you to sig
 Part of our code is borrowed from the following repositories:
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [mmaction2](https://github.com/open-mmlab/mmaction2)
+- [MMAction2](https://github.com/open-mmlab/mmaction2)
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
 - [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
 
