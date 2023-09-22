@@ -27,7 +27,7 @@ In the context of the whole project, the folder structure will look like:
 
 ```
 NurViD-benchmark
-├── annotations (The original annotation files and the division of train, validation, and test sets for different tasks)
+├── annotations
 │   ├── task1&3
 │   │   ├── train.csv
 │   │   ├── val.csv
@@ -41,7 +41,7 @@ NurViD-benchmark
 │   │   ├── action_test.csv
 │   ├── NurViD_annotations.json
 │   ├── Procedure&Action_ID.xlsx
-├── feature_extraction (The feature extraction script required for action detection.)
+├── feature_extraction
 │   ├── feature
 │   │   ├── --Ly-qjodoIs.npz
 │   │   ├── -0z1P7sw2qs.npz
@@ -49,7 +49,7 @@ NurViD-benchmark
 │   ├── build_rawframes.py
 │   ├── extract_features.py
 │   ├── ..
-├── tools (Scripts for video downloading, pre-processing, video editing, etc.)
+├── tools
 │   ├── downloader.py
 │   ├── preprocess_videos.py
 │   ├── clip.py
@@ -57,7 +57,7 @@ NurViD-benchmark
 │   ├── SlowFast
 │   ├── C3D
 │   ├── I3D
-├── dataset (Video data structure.)
+├── dataset
 │   ├── Original_videos
 │   │   ├── --Ly-qjodoI.mp4
 │   │   ├── -0z1P7sw2qs.mp4
@@ -103,7 +103,7 @@ python /feature_extraction/extract_features.py --mode flow --load_model models/f
 To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input.
 
 ### 5.Our Source
-We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive, Zenodo and Baidu Netdisk download links (including original videos, preprocessed videos and features).
+We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive and Baidu Netdisk download links (including original videos, preprocessed videos and features). Our dataset videos will be released soon, no later than the camera-ready deadline.
 
 ## Publications
 
