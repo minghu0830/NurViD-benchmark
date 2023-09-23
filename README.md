@@ -9,7 +9,7 @@ NurViD is a large video dataset with expert-level annotation for nursing procedu
 ![demo](./localization.png)
 
 ## :partying_face: News
-* **[2023.09.22]** NurViD is selected by NeurIPS 2023 Track Datasets and Benchmarks!
+* **[2023.09.22]** NurViD was accepted at NeurIPS 2023 Track Datasets and Benchmarks!
 
 ## :cowboy_hat_face:Installation
 
