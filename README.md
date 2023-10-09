@@ -128,6 +128,20 @@ CC BY 4.0
 Disclaimer.txt
 ```
 
+## :hospital: Contributors
+This research was supported by a team from Shanxi Medical University. We are grateful for their dedication in the data annotation process.
+| Name         | Name        | Name        |
+| ------------ | ----------- | ----------- |
+| Qingli Ren   | Peizhe Zhang| Hao Guo     |
+| Yidi Liu     | Yaokai Xing | Jiaqi Li    |
+| Rujie Gao    | Zhen Lv     | Jun Wang    |
+| Jiayu Tian   | Guangyan Niu| Ruixin Wang |
+| Huikang Huang| Yuxin Zhao  | Jing Li     |
+| Yijin Wang   | Yajing Hao  | Wenxua Wu   |
+| Ziyi Wang    | Xu Guo      | Yuhua Cai   |
+| Xinrong Guo  | Xueying Ma  | Yingjuan Zhang |
+| Yuqi Zhang   | Liru Ma     | Sinan Li    |
+
 ## Dataset and Code Release Progress
 - [x] Start release
 - [x] Add video and annotation files
