@@ -1,5 +1,5 @@
 # NurViD: A Large Expert-Level Video Database for Nursing Procedure Activity Understanding
-[Ming Hu](https://minghu0830.github.io/), [Lin Wang](https://wanglin-research.com/), [Siyuan Yan](https://siyuanyan1.github.io/), [Don Ma](), [Qingli Ren](), [Peng Xia](https://peng-xia.site/), [Wei Feng](https://fengweie.github.io/), [Peibo Duan](https://scholar.google.com/citations?user=wdIMVqsAAAAJ&hl=zh-CN), [Lie Ju](https://mmai.group/peoples/julie/), [Zongyuan Ge](https://zongyuange.github.io/).
+[Ming Hu](https://minghu0830.github.io/), [Lin Wang](https://github.com/wangsssky), [Siyuan Yan](https://siyuanyan1.github.io/), [Don Ma](), [Qingli Ren](), [Peng Xia](https://peng-xia.site/), [Wei Feng](https://fengweie.github.io/), [Peibo Duan](https://scholar.google.com/citations?user=wdIMVqsAAAAJ&hl=zh-CN), [Lie Ju](https://mmai.group/peoples/julie/), [Zongyuan Ge](https://zongyuange.github.io/).
 
 <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
