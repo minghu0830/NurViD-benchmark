@@ -121,6 +121,17 @@ Part of our code is borrowed from the following repositories:
 - [I3D Feature Extraction](https://github.com/Finspire13/pytorch-i3d-feature-extraction)
 - [PySlowFast](https://github.com/facebookresearch/SlowFast/tree/main)
 
+## :partying_face: Citation
+If you find this work useful, please cite:
+```
+@inproceedings{ming2023nurvid,
+  title={NurViD: A Large Expert-Level Video Database for Nursing Procedure Activity Understanding},
+  author={Ming, Hu and Lin, Wang and Siyuan, Yan and Don, Ma and Qingli, Ren and Peng, Xia and Wei, Feng and Peibo, Duan and Lie, Ju and Zongyuan, Ge},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2023}
+}
+```
+
 ## :white_check_mark: License and Disclaimer
 The CC-BY-4.0 license and disclaimer statement for the project can be found in the following file description：
 ```
