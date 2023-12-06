@@ -22,7 +22,7 @@ for video_name in video_names:
     # 拼接本地视频的完整路径
     video_path = os.path.join(video_dir, video_name+'.mp4')
 
-    operation_id = data[video_name]["procedureID"]
+    operation_id = data[video_name]["operationID"]
     annotations = data[video_name]["annotations"]
 
 
