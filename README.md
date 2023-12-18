@@ -110,7 +110,7 @@ python /feature_extraction/extract_features.py --mode flow --load_model models/f
 To handle varying video durations, we perform uniform interpolation to generate 100 fixed-length features for each video. Lastly, we combine the RGB and optical flow features into a 2048-dimensional embedding as the model input.
 
 ### 5.Our Source
-We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive and Baidu Netdisk download links (including original videos, preprocessed videos and features). Our dataset videos will be released soon, no later than the camera-ready deadline.
+We also provide a method to directly access our data, but it requires you to sign the [data agreement form](https://form.jotform.com/232158342596158). Once you have completed the form, you will receive an email from our team with Google Drive and Baidu Netdisk download links. 
 
 ## :teddy_bear: Acknowledgement
 
@@ -152,9 +152,3 @@ This research was supported by a team from Shanxi Medical University. We are gra
 | Ziyi Wang    | Xu Guo      | Yuhua Cai   |
 | Xinrong Guo  | Xueying Ma  | Yingjuan Zhang |
 | Yuqi Zhang   | Liru Ma     | Sinan Li    |
-
-## Dataset and Code Release Progress
-- [x] Start release
-- [x] Add video and annotation files
-- [ ] Add RGB and Flow features
-- [ ] Add code
