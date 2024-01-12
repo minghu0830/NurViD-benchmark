@@ -123,7 +123,7 @@ Part of our code is borrowed from the following repositories:
 
 ## :partying_face: Citation
 If you find this work useful, please cite:
-```
+```bibtex
 @inproceedings{ming2023nurvid,
   title={NurViD: A Large Expert-Level Video Database for Nursing Procedure Activity Understanding},
   author={Ming, Hu and Lin, Wang and Siyuan, Yan and Don, Ma and Qingli, Ren and Peng, Xia and Wei, Feng and Peibo, Duan and Lie, Ju and Zongyuan, Ge},
